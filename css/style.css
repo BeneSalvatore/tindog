@@ -32,12 +32,14 @@
 }
 
 .profile-img {
+  display: inline-block;
   height: 100px;
   width: fit-content;
   border-radius: 50%;
 }
 
 #mention img{
+  display: inline-block;
   height: 30px;
   width: fit-content;
 }
