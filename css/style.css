@@ -4,6 +4,15 @@
   animation: gradient-animation 18s ease infinite;
 }
 
+#testimonial {
+  background-color: #f8f9fa;
+}
+
+
+.img-container {
+  height: 50px;
+}
+
 @keyframes gradient-animation {
   0% {
     background-position: 0% 50%;
@@ -24,9 +33,11 @@
 
 .profile-img {
   height: 100px;
+  width: fit-content;
   border-radius: 50%;
 }
 
-.gradient-background {
-  
+#mention img{
+  height: 30px;
+  width: fit-content;
 }
